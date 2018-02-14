@@ -1,0 +1,40 @@
+(pyenv36:image_downloader) you are here: ~/Workspaces/tiny_projects/image_downloader (master)*
+simon@feltmac$ python run.py
+[
+  {
+    "url": "fdfhttp://127.0.0.1:8081/textures/wood.jpg",
+    "filename": "",
+    "status": "Could not download URL 'fdfhttp://127.0.0.1:8081/textures/wood.jpg' due to URLError: <urlopen error unknown url type: fdfhttp>",
+    "linenum": 0
+  },
+  {
+    "url": "http://127.0.0.1:8081/textures/kitchen.jpg",
+    "filename": "51cdebb4642726305401839ea38fbedd029eabaafc53aaac1599fdf8fe668ee0.jpg",
+    "status": "Ok",
+    "linenum": 1
+  },
+  {
+    "url": "http://127.0.0.1:8081/textures/gridjpg",
+    "filename": "",
+    "status": "Could not download URL 'http://127.0.0.1:8081/textures/gridjpg' due to HTTPError: HTTP Error 404: NOT FOUND",
+    "linenum": 2
+  },
+  {
+    "url": "",
+    "filename": "",
+    "status": "Skipped",
+    "linenum": 3
+  },
+  {
+    "url": "",
+    "filename": "",
+    "status": "Skipped",
+    "linenum": 4
+  },
+  {
+    "url": "vjkdfs",
+    "filename": "",
+    "status": "Could not download URL 'vjkdfs' due to ValueError: unknown url type: 'vjkdfs'",
+    "linenum": 5
+  }
+]
